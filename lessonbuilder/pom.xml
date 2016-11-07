@@ -337,6 +337,26 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
+        <repository>
+            <id>opencollab-snapshot</id>
+            <url>http://nexus.opencollab.co.za/nexus/content/repositories/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>opencollab-release</id>
+            <url>http://nexus.opencollab.co.za/nexus/content/repositories/releases</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
     </repositories>
 
     <dependencyManagement>
